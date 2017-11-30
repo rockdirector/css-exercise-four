@@ -63,12 +63,14 @@ h1.container {
 @media screen and (min-width: 575px) {
   .container {
     padding: 2%;
-    width: 85%;
+    width: 90%;
     margin: 40px auto;
   }
    .preview {
      margin: 1%;
+     padding: 5%;
      width: 48%;
+     height: 300px;
    }
 }
 
@@ -76,11 +78,15 @@ h1.container {
 @media screen and (min-width: 991px) {
     .container {
       padding: 2%;
-      width: 85%;
+      width: 90%;
       margin: 40px auto;
     }
      .preview {
         margin: 1%;
+        padding: 2%;
         width: 23%;
+        height: 250px;
+        font-size: 1.5em;
+
   }
 }
